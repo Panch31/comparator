@@ -4,10 +4,10 @@ public class BceNawy {
     private String name;
     private int weight;
 
-    public BceNawy(String n, int w){
+    public BceNawy(String name, int weight){
 
-        name = n;
-        weight = w;
+        this.name = name;
+        this.weight = weight;
     }
     String getName(){
         return name;
